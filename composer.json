@@ -1,16 +1,21 @@
 {
-    "name": "vexxhost/cloud-flare-api",
-    "description": "Cloud Flare basic API bindings",
-    "license": "BSD-2-Clause",
-    "authors": [
-        {
-            "name": "AzzA",
-            "email": "azza@broadcasthe.net"
-        }
-    ],
-    "autoload": {
-        "classmap" : [
-            "class_cloudflare.php"
-        ]
+  "name": "erasys/cloud-flare-api",
+  "type": "library",
+  "description": "Cloud Flare basic API bindings",
+  "keywords": ["Erasys", "CloudFlare API"],
+  "homepage": "https://github.com/erasys/CloudFlare-API",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "AzzA",
+      "email": "azza@broadcasthe.net"
     }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "classmap" : [
+      "class_cloudflare.php"
+    ]
+  }
 }
